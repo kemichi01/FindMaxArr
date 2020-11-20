@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        let randomarr = new Array(8,12,16,20,28);
+        let maxarr = randomarr[0];
+        let index = 0;
+        for ( let i = 1; i <randomarr.length; i++){
+            if (randomarr[i] > maxarr){
+                maxarr = randomarr[i];
+                index = i;
+            }
+        }
+        console.log("phan tu lon nhat la" + " " + maxarr + " " + "o vi tri" + " " + index);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
